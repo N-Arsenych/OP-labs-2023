@@ -1,0 +1,17 @@
+int a, b, c;
+
+a += 10;
+b = b + a;
+number += 3;
+c += 5;
+sum += 9;
+a = b + c;
+x += 4;
+q += 12;
+dvsndskvldmvlds;vdsldj nkd jkvjdmv ld;smsl;cms aslvdsklvd dlvmdslvmdslvmdsvbsfvdsmvds
+v += 7;
+d += 2;
+
+ghfbnsklcsal;cksajckslnvslac,s;aks sk sa s464tgdkvmdslvdlvds
+e += 92;
+g += 10;
