@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\PC\Desktop\kpi\op2\kp6\kp6\main.cpp(70,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\PC\Desktop\kpi\op2\kp6\kp6\main.cpp(71,6): warning C4101: 'n': unreferenced local variable
+  kp6.vcxproj -> C:\Users\PC\Desktop\kpi\op2\kp6\x64\Debug\kp6.exe
