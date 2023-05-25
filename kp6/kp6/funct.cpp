@@ -102,3 +102,18 @@ void find_pos(List<T>& lst)
 	int pos = lst.distance(lst.begin(), itr);
 	cout << "The position of your element is " << pos << endl;
 }
+
+template<typename T>
+void find_element(List<T>& lst)
+{
+	int pos;
+	cout << "Enter the position: ";
+	cin >> pos;
+
+	auto itr = lst.begin();
+	for (int i = 1; i < pos; i++)
+	{
+		itr++;
+	}
+	cout << *itr << endl;
+}

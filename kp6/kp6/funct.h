@@ -4,7 +4,6 @@
 
 using namespace std;
 
-//int intro();
 template<typename T>
 void fill_list(List<T>&);
 template<typename T>
@@ -17,4 +16,5 @@ template<typename T>
 void check_empty(List<T>& );
 template<typename T>
 void find_pos(List<T>& lst);
-//void head();
+template<typename T>
+void find_element(List<T>& lst);

@@ -14,6 +14,8 @@ int menu()
 	cout << "5 - View the list" << endl;
 	cout << "6 - Check if list is empty" << endl;
 	cout << "7 - Find position of an element" << endl;
+	cout << "8 - Find the element from position" << endl;
+	cout << "9 - Find the last" << endl;
 	cout << "0 - exit" << endl;
 	cin >> n;
 	return n;
@@ -53,6 +55,9 @@ void head(List<T> lst)
 		case(7):
 			find_pos(lst);
 			break;
+		case(8):
+			find_element(lst);
+			break;
 		case(0):
 			exit(0);
 			break;
@@ -67,7 +72,6 @@ void head(List<T> lst)
 
 int main()
 {
-	srand(time(NULL));
 	int n;
 	cout << "This program works with singly linked list." << endl;
 	cout << "Choose data type" << endl;

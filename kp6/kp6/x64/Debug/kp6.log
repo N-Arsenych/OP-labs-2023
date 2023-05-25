@@ -1,2 +1,5 @@
-﻿  funct.cpp
-  kp6.vcxproj -> C:\Users\PC\Desktop\GIT projects\kp6\x64\Debug\kp6.exe
+﻿  List.cpp
+  funct.cpp
+  main.cpp
+  Generating Code...
+LINK : fatal error LNK1168: cannot open C:\Users\PC\Desktop\GIT projects\kp6\x64\Debug\kp6.exe for writing
