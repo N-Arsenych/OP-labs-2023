@@ -1,0 +1,6 @@
+﻿  main.cpp
+  stream.cpp
+  pointer.cpp
+C:\Users\PC\Desktop\GIT projects\kp1\pointer.cpp(176,54): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+  Generating Code...
+  kp1.vcxproj -> C:\Users\PC\Desktop\GIT projects\kp1\x64\Debug\kp1.exe

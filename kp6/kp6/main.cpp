@@ -69,9 +69,40 @@ int main()
 {
 	srand(time(NULL));
 	int n;
+	cout << "This program works with singly linked list." << endl;
+	cout << "Choose data type" << endl;
+	cout << "1 - int\n2 - float\n3 - double\n4 - char\n5 - string" << endl;
+	cin >> n;
 
-	List<int> lst;
-	head(lst);
+	if (n == 1)
+	{
+		List<int> lst;
+		head(lst);
+	}
+	else if (n == 2)
+	{
+		List<float>lst;
+		head(lst);
+	}
+	else if (n == 3)
+	{
+		List<double>lst;
+		head(lst);
+	}
+	else if (n == 4)
+	{
+		List<char>lst;
+		head(lst);
+	}
+	else if (n == 5)
+	{
+		List<string>lst;
+		head(lst);
+	}
+	else
+	{
+		cout << "You didn`t choose the data type" << endl;
+	}
 	
 	return 0;
 }
