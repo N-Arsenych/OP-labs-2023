@@ -117,3 +117,17 @@ void find_element(List<T>& lst)
 	}
 	cout << *itr << endl;
 }
+
+template<typename T>
+void is_end(List<T>& lst)
+{
+	std::size_t count = 0;
+	auto itr = lst.begin();
+	while (itr != lst.end())
+	{
+		++itr;
+		++count;
+	}
+	cout << "The last element is: " << *itr << endl;
+	cout << "This list has " << count << " elements" << endl;
+}

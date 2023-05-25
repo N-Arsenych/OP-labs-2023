@@ -18,3 +18,5 @@ template<typename T>
 void find_pos(List<T>& lst);
 template<typename T>
 void find_element(List<T>& lst);
+template<typename T>
+void is_end(List<T>& lst);

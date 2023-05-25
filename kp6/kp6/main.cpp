@@ -58,6 +58,9 @@ void head(List<T> lst)
 		case(8):
 			find_element(lst);
 			break;
+		case(9):
+			is_end(lst);
+			break;
 		case(0):
 			exit(0);
 			break;
