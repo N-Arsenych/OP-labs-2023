@@ -44,6 +44,10 @@ public:
 
 	bool empty();
 	void clear();
+	T find_end()
+	{
+		return tail->data;
+	}
 };
 
 

@@ -121,13 +121,21 @@ void find_element(List<T>& lst)
 template<typename T>
 void is_end(List<T>& lst)
 {
-	std::size_t count = 0;
+	T el = lst.find_end();
+	auto itr = lst.find(el);
+
+	cout << "The last element is: " << *itr << endl;
+}
+
+template<typename T>
+void find_size(List<T>& lst)
+{
+	int count = 0;
 	auto itr = lst.begin();
 	while (itr != lst.end())
 	{
-		++itr;
-		++count;
+		count++;
+		itr++;
 	}
-	cout << "The last element is: " << *itr << endl;
-	cout << "This list has " << count << " elements" << endl;
+	cout << "Size: " << count << endl;
 }

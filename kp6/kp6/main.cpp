@@ -14,8 +14,9 @@ int menu()
 	cout << "5 - View the list" << endl;
 	cout << "6 - Check if list is empty" << endl;
 	cout << "7 - Find position of an element" << endl;
-	cout << "8 - Find the element from position" << endl;
+	cout << "8 - Find the element of position" << endl;
 	cout << "9 - Find the last" << endl;
+	cout << "10 - Size" << endl;
 	cout << "0 - exit" << endl;
 	cin >> n;
 	return n;
@@ -60,6 +61,9 @@ void head(List<T> lst)
 			break;
 		case(9):
 			is_end(lst);
+			break;
+		case(10):
+			find_size(lst);
 			break;
 		case(0):
 			exit(0);
