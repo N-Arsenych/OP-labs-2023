@@ -1,5 +1,213 @@
 ﻿  List.cpp
-  funct.cpp
   main.cpp
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(51,62): error C2248: 'List<int>::Iterator::Iterator': cannot access private member declared in class 'List<int>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(29,3): message : see declaration of 'List<int>::Iterator::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<int>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(51,45): message : while compiling class template member function 'List<int>::Iterator List<int>::begin(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(46,8): message : see reference to function template instantiation 'List<int>::Iterator List<int>::begin(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(43,1): message : while compiling class template member function 'void List<int>::clear(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\main.cpp(48,13): message : see reference to function template instantiation 'void List<int>::clear(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(4,17): message : while compiling class template member function 'List<int>::List(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\main.cpp(90,13): message : see reference to function template instantiation 'List<int>::List(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\main.cpp(90,13): message : see reference to class template instantiation 'List<int>' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(54,60): error C2248: 'List<int>::Iterator::Iterator': cannot access private member declared in class 'List<int>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(29,3): message : see declaration of 'List<int>::Iterator::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<int>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(54,43): message : while compiling class template member function 'List<int>::Iterator List<int>::end(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\funct.cpp(15,13): message : see reference to function template instantiation 'List<int>::Iterator List<int>::end(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(59,42): error C2248: 'List<int>::Iterator::ptr': cannot access private member declared in class 'List<int>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<int>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<int>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(58,1): message : while compiling class template member function 'List<int>::Iterator List<int>::insert(List<int>::Iterator,const T &)'
+          with
+          [
+              T=int
+          ]
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\funct.cpp(15,13): message : see reference to function template instantiation 'List<int>::Iterator List<int>::insert(List<int>::Iterator,const T &)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(60,9): error C2248: 'List<int>::Iterator::ptr': cannot access private member declared in class 'List<int>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<int>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<int>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(64,5): error C2248: 'List<int>::Iterator::ptr': cannot access private member declared in class 'List<int>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<int>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<int>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(71,26): error C2248: 'List<int>::Iterator::ptr': cannot access private member declared in class 'List<int>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<int>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<int>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(70,1): message : while compiling class template member function 'List<int>::Iterator List<int>::erase(List<int>::Iterator)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(46,8): message : see reference to function template instantiation 'List<int>::Iterator List<int>::erase(List<int>::Iterator)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(91,17): error C2248: 'List<int>::Iterator::Iterator': cannot access private member declared in class 'List<int>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(29,3): message : see declaration of 'List<int>::Iterator::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<int>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(51,62): error C2248: 'List<float>::Iterator::Iterator': cannot access private member declared in class 'List<float>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(29,3): message : see declaration of 'List<float>::Iterator::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<float>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(51,45): message : while compiling class template member function 'List<float>::Iterator List<float>::begin(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(46,8): message : see reference to function template instantiation 'List<float>::Iterator List<float>::begin(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(43,1): message : while compiling class template member function 'void List<float>::clear(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\main.cpp(48,13): message : see reference to function template instantiation 'void List<float>::clear(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(4,17): message : while compiling class template member function 'List<float>::List(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\main.cpp(95,14): message : see reference to function template instantiation 'List<float>::List(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\main.cpp(95,14): message : see reference to class template instantiation 'List<float>' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(54,60): error C2248: 'List<float>::Iterator::Iterator': cannot access private member declared in class 'List<float>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(29,3): message : see declaration of 'List<float>::Iterator::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<float>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(54,43): message : while compiling class template member function 'List<float>::Iterator List<float>::end(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\funct.cpp(15,13): message : see reference to function template instantiation 'List<float>::Iterator List<float>::end(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(59,42): error C2248: 'List<float>::Iterator::ptr': cannot access private member declared in class 'List<float>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<float>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<float>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(58,1): message : while compiling class template member function 'List<float>::Iterator List<float>::insert(List<float>::Iterator,const T &)'
+          with
+          [
+              T=float
+          ]
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\funct.cpp(15,13): message : see reference to function template instantiation 'List<float>::Iterator List<float>::insert(List<float>::Iterator,const T &)' being compiled
+          with
+          [
+              T=float
+          ]
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(60,9): error C2248: 'List<float>::Iterator::ptr': cannot access private member declared in class 'List<float>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<float>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<float>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(64,5): error C2248: 'List<float>::Iterator::ptr': cannot access private member declared in class 'List<float>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<float>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<float>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(71,26): error C2248: 'List<float>::Iterator::ptr': cannot access private member declared in class 'List<float>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<float>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<float>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(70,1): message : while compiling class template member function 'List<float>::Iterator List<float>::erase(List<float>::Iterator)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(46,8): message : see reference to function template instantiation 'List<float>::Iterator List<float>::erase(List<float>::Iterator)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(91,17): error C2248: 'List<float>::Iterator::Iterator': cannot access private member declared in class 'List<float>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(29,3): message : see declaration of 'List<float>::Iterator::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<float>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(51,62): error C2248: 'List<double>::Iterator::Iterator': cannot access private member declared in class 'List<double>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(29,3): message : see declaration of 'List<double>::Iterator::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<double>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(51,45): message : while compiling class template member function 'List<double>::Iterator List<double>::begin(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(46,8): message : see reference to function template instantiation 'List<double>::Iterator List<double>::begin(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(43,1): message : while compiling class template member function 'void List<double>::clear(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\main.cpp(48,13): message : see reference to function template instantiation 'void List<double>::clear(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(4,17): message : while compiling class template member function 'List<double>::List(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\main.cpp(100,15): message : see reference to function template instantiation 'List<double>::List(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\main.cpp(100,15): message : see reference to class template instantiation 'List<double>' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(54,60): error C2248: 'List<double>::Iterator::Iterator': cannot access private member declared in class 'List<double>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(29,3): message : see declaration of 'List<double>::Iterator::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<double>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(54,43): message : while compiling class template member function 'List<double>::Iterator List<double>::end(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\funct.cpp(15,13): message : see reference to function template instantiation 'List<double>::Iterator List<double>::end(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(59,42): error C2248: 'List<double>::Iterator::ptr': cannot access private member declared in class 'List<double>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<double>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<double>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(58,1): message : while compiling class template member function 'List<double>::Iterator List<double>::insert(List<double>::Iterator,const T &)'
+          with
+          [
+              T=double
+          ]
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\funct.cpp(15,13): message : see reference to function template instantiation 'List<double>::Iterator List<double>::insert(List<double>::Iterator,const T &)' being compiled
+          with
+          [
+              T=double
+          ]
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(60,9): error C2248: 'List<double>::Iterator::ptr': cannot access private member declared in class 'List<double>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<double>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<double>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(64,5): error C2248: 'List<double>::Iterator::ptr': cannot access private member declared in class 'List<double>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<double>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<double>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(71,26): error C2248: 'List<double>::Iterator::ptr': cannot access private member declared in class 'List<double>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<double>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<double>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(70,1): message : while compiling class template member function 'List<double>::Iterator List<double>::erase(List<double>::Iterator)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(46,8): message : see reference to function template instantiation 'List<double>::Iterator List<double>::erase(List<double>::Iterator)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(91,17): error C2248: 'List<double>::Iterator::Iterator': cannot access private member declared in class 'List<double>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(29,3): message : see declaration of 'List<double>::Iterator::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<double>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(51,62): error C2248: 'List<char>::Iterator::Iterator': cannot access private member declared in class 'List<char>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(29,3): message : see declaration of 'List<char>::Iterator::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<char>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(51,45): message : while compiling class template member function 'List<char>::Iterator List<char>::begin(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(46,8): message : see reference to function template instantiation 'List<char>::Iterator List<char>::begin(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(43,1): message : while compiling class template member function 'void List<char>::clear(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\main.cpp(48,13): message : see reference to function template instantiation 'void List<char>::clear(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(4,17): message : while compiling class template member function 'List<char>::List(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\main.cpp(105,13): message : see reference to function template instantiation 'List<char>::List(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\main.cpp(105,13): message : see reference to class template instantiation 'List<char>' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(54,60): error C2248: 'List<char>::Iterator::Iterator': cannot access private member declared in class 'List<char>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(29,3): message : see declaration of 'List<char>::Iterator::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<char>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(54,43): message : while compiling class template member function 'List<char>::Iterator List<char>::end(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\funct.cpp(15,13): message : see reference to function template instantiation 'List<char>::Iterator List<char>::end(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(59,42): error C2248: 'List<char>::Iterator::ptr': cannot access private member declared in class 'List<char>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<char>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<char>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(58,1): message : while compiling class template member function 'List<char>::Iterator List<char>::insert(List<char>::Iterator,const T &)'
+          with
+          [
+              T=char
+          ]
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\funct.cpp(15,13): message : see reference to function template instantiation 'List<char>::Iterator List<char>::insert(List<char>::Iterator,const T &)' being compiled
+          with
+          [
+              T=char
+          ]
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(60,9): error C2248: 'List<char>::Iterator::ptr': cannot access private member declared in class 'List<char>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<char>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<char>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(64,5): error C2248: 'List<char>::Iterator::ptr': cannot access private member declared in class 'List<char>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<char>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<char>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(71,26): error C2248: 'List<char>::Iterator::ptr': cannot access private member declared in class 'List<char>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<char>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<char>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(70,1): message : while compiling class template member function 'List<char>::Iterator List<char>::erase(List<char>::Iterator)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(46,8): message : see reference to function template instantiation 'List<char>::Iterator List<char>::erase(List<char>::Iterator)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(91,17): error C2248: 'List<char>::Iterator::Iterator': cannot access private member declared in class 'List<char>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(29,3): message : see declaration of 'List<char>::Iterator::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<char>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(51,62): error C2248: 'List<std::string>::Iterator::Iterator': cannot access private member declared in class 'List<std::string>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(29,3): message : see declaration of 'List<std::string>::Iterator::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<std::string>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(51,45): message : while compiling class template member function 'List<std::string>::Iterator List<std::string>::begin(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(46,8): message : see reference to function template instantiation 'List<std::string>::Iterator List<std::string>::begin(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(43,1): message : while compiling class template member function 'void List<std::string>::clear(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\main.cpp(48,13): message : see reference to function template instantiation 'void List<std::string>::clear(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(4,17): message : while compiling class template member function 'List<std::string>::List(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\main.cpp(110,15): message : see reference to function template instantiation 'List<std::string>::List(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\main.cpp(110,15): message : see reference to class template instantiation 'List<std::string>' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(54,60): error C2248: 'List<std::string>::Iterator::Iterator': cannot access private member declared in class 'List<std::string>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(29,3): message : see declaration of 'List<std::string>::Iterator::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<std::string>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(54,43): message : while compiling class template member function 'List<std::string>::Iterator List<std::string>::end(void)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\funct.cpp(15,13): message : see reference to function template instantiation 'List<std::string>::Iterator List<std::string>::end(void)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(59,42): error C2248: 'List<std::string>::Iterator::ptr': cannot access private member declared in class 'List<std::string>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<std::string>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<std::string>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(58,1): message : while compiling class template member function 'List<std::string>::Iterator List<std::string>::insert(List<std::string>::Iterator,const T &)'
+          with
+          [
+              T=std::string
+          ]
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\funct.cpp(15,13): message : see reference to function template instantiation 'List<std::string>::Iterator List<std::string>::insert(List<std::string>::Iterator,const T &)' being compiled
+          with
+          [
+              T=std::string
+          ]
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(60,9): error C2248: 'List<std::string>::Iterator::ptr': cannot access private member declared in class 'List<std::string>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<std::string>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<std::string>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(64,5): error C2248: 'List<std::string>::Iterator::ptr': cannot access private member declared in class 'List<std::string>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<std::string>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<std::string>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(71,26): error C2248: 'List<std::string>::Iterator::ptr': cannot access private member declared in class 'List<std::string>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(28,12): message : see declaration of 'List<std::string>::Iterator::ptr'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<std::string>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(70,1): message : while compiling class template member function 'List<std::string>::Iterator List<std::string>::erase(List<std::string>::Iterator)'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(46,8): message : see reference to function template instantiation 'List<std::string>::Iterator List<std::string>::erase(List<std::string>::Iterator)' being compiled
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.cpp(91,17): error C2248: 'List<std::string>::Iterator::Iterator': cannot access private member declared in class 'List<std::string>::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(29,3): message : see declaration of 'List<std::string>::Iterator::Iterator'
+C:\Users\PC\Desktop\GIT projects\kp6\kp6\List.h(25,1): message : see declaration of 'List<std::string>::Iterator'
   Generating Code...
-  kp6.vcxproj -> C:\Users\PC\Desktop\GIT projects\kp6\x64\Debug\kp6.exe

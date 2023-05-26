@@ -69,13 +69,13 @@ template <typename T>
 typename List<T>::Iterator List<T>::erase(Iterator pos)
 {
 	Node<T>* to_delete = pos.ptr;
+	Node<T>* prev_node = head;
 	if (to_delete == head)
 	{
 		head = head->next;
 	}
 	else
 	{
-		Node<T>* prev_node = head;
 		while (prev_node->next != to_delete)
 		{
 			prev_node = prev_node->next;
