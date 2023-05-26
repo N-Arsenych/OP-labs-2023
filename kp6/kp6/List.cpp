@@ -68,15 +68,28 @@ typename List<T>::Iterator List<T>::insert(Iterator pos, const T& val)
 template <typename T>
 typename List<T>::Iterator List<T>::erase(Iterator pos)
 {
-	Node<T>* to_delete = pos.ptr->next;
-	pos.ptr->next = pos.ptr->next->next;
+	Node<T>* to_delete = pos.ptr;
+	if (to_delete == head)
+	{
+		head = head->next;
+	}
+	else
+	{
+		Node<T>* prev_node = head;
+		while (prev_node->next != to_delete)
+		{
+			prev_node = prev_node->next;
+		}
+		prev_node->next = to_delete->next;
+	}
 	if (to_delete == tail)
 	{
-		tail = pos.ptr;
+		tail = prev_node;
 	}
 	delete to_delete;
-	return pos;
+	return Iterator(prev_node->next);
 }
+
 
 template<typename T>
 typename List<T>::Iterator List<T>::find(const T& val)

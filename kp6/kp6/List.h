@@ -23,7 +23,7 @@ public:
 
 	class Iterator
 	{
-		friend class List;
+		
 	private:
 		Node<T>* ptr;
 		Iterator(Node<T>* new_ptr);
@@ -44,10 +44,7 @@ public:
 
 	bool empty();
 	void clear();
-	T find_end()
-	{
-		return tail->data;
-	}
+	T find_end(){return tail->data;}
 };
 
 
